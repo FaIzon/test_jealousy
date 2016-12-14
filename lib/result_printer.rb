@@ -1,6 +1,6 @@
 class ResultPrinter
   def print_result(test, test_answers)
-    puts "\n\nРезультат теста (всего баллов - #{test.points})"
+    puts "\nРезультат теста (всего баллов - #{test.points})"
 
     if test.points >= 10
       puts test_answers[0]

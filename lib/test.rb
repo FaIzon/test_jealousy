@@ -29,6 +29,7 @@ class Test
     end
 
     @current_question += 1
+
     (@current_question >= questions.size) ? false : true
   end
 end
